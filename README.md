@@ -1,7 +1,7 @@
 # CookieWrapper
 Easy cookie managament class
 
-PS. I created this class so quickly. Somelines can be defective. So you can report me and I'll change it.
+PS. I created this class so quickly. Some lines can be defective. So you can report me and I'll change it.
 
 # Usage
 ```php
