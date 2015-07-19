@@ -50,8 +50,16 @@ class Cookie{
      * @var bool
      */
     protected static $secure = false;
+    /**
+     * Get a list of cookies that browser keeps.
+     * @return array A list of cookies that browser keeps.
+     */
+    public static function all()
+    {
 
-
+        return $_COOKIE;
+        
+    }
     /**
      * get true name of cookies
      *

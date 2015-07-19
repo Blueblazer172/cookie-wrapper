@@ -32,4 +32,9 @@ $Cookie->get('example');
  */
 $Cookie->del('example');
 
+/**
+ * Get a list of cookies that browser keeps at the moment.
+ */
+Cookie::all();
+
 ```
