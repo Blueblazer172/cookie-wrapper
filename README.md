@@ -26,11 +26,6 @@ $Cookie->set('example', 'example data what u want', '+10 days');
 $Cookie->get('example');
 
 /**
-* Get all cookies
-*/
-$Cookie->all();
-
-/**
  * Remove the cookie from browser
  *
  * $Cookie->set('name');
