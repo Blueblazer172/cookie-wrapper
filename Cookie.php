@@ -1,27 +1,30 @@
 <?php
 /**
- * Cookie Wrapper v0.1
+ * Cookie Wrapper v0.2
  * For easy cookie managament
- *
- * Set Command =>
- * $Cookie = new Cookie();
- * $Cookie->set('example', 'example data what u want', '+10 days');
- *
- * Get Command =>
- * $Cookie = new Cookie();
- * $Cookie->get('example');
- *
- * Remove Command =>
- * $Cookie = new Cookie();
- * $Cookie->del('example');
- *
+ * 
  * @package CookieWrapper
  * @version 0.1
  * @author Ozan "sythdev" Akman <info@ozanakman.com.tr>
  *
  */
+namespace Sythdev;
 
 class Cookie{
+    /*
+     * Set Command =>
+     * $Cookie = new Cookie();
+     * $Cookie->set('example', 'example data what u want', '+10 days');
+     *
+     * Get Command =>
+     * $Cookie = new Cookie();
+     * $Cookie->get('example');
+     *
+     * Remove Command =>
+     * $Cookie = new Cookie();
+     * $Cookie->del('example');
+     *
+    */
 
     /**
      * prefix for cookies
