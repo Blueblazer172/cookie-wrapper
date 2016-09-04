@@ -7,7 +7,7 @@ PS. I created this class so quickly. Some lines can be defective. So you can rep
 ```php
 <?php 
 require 'Cookie.php';
-$Cookie = new Cookie();
+$Cookie = new \Sythdev\Cookie();
 
 /**
 * Set (Add new cookie)
